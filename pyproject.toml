@@ -1,0 +1,9 @@
+[project]
+name = "hands"
+version = "2025.0.1"
+description = "Overview of the testing tools."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mkdocs-material[docs]>=9.6.19",
+]
