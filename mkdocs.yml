@@ -20,3 +20,4 @@ theme:
       accent: deep orange
   features:
     - navigation.footer
+  copyright: Copyright &copy; 2025 Andreas Felix Häberle
