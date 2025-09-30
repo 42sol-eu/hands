@@ -1,0 +1,113 @@
+/* Custom styles for Hands documentation */
+
+/* Grid cards styling */
+.md-typeset .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  gap: 1rem;
+  margin: 1em 0;
+}
+
+.md-typeset .grid.cards > * {
+  border: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem;
+  display: block;
+  margin: 0;
+  padding: 0.8rem;
+  transition: border 0.25s, box-shadow 0.25s;
+}
+
+.md-typeset .grid.cards > *:hover {
+  border-color: var(--md-accent-fg-color);
+  box-shadow: var(--md-shadow-z2);
+}
+
+/* Enhanced admonition styling */
+.md-typeset .admonition.tip {
+  border-left-color: var(--md-primary-fg-color);
+}
+
+/* Code block enhancements */
+.md-typeset .highlight .filename {
+  background: var(--md-code-bg-color);
+  border-bottom: 0.05rem solid var(--md-default-fg-color--lightest);
+  border-radius: 0.2rem 0.2rem 0 0;
+  font-size: 0.85em;
+  font-weight: 700;
+  margin: 0 0 -0.6rem;
+  padding: 0.6rem 1.2rem;
+}
+
+/* Table styling improvements */
+.md-typeset table:not([class]) {
+  border: 0.05rem solid var(--md-typeset-table-color);
+  border-radius: 0.2rem;
+  font-size: 0.64rem;
+}
+
+.md-typeset table:not([class]) td,
+.md-typeset table:not([class]) th {
+  border-top: 0.05rem solid var(--md-typeset-table-color);
+  padding: 0.6rem 0.8rem;
+}
+
+/* Navigation enhancements */
+.md-nav__title {
+  font-weight: 700;
+}
+
+/* Footer customizations */
+.md-footer-meta {
+  background-color: var(--md-footer-bg-color--dark);
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 44.984375em) {
+  .md-typeset .grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Color scheme specific adjustments */
+[data-md-color-scheme="slate"] {
+  --md-hue: 142;
+}
+
+[data-md-color-scheme="default"] {
+  --md-hue: 142;
+}
+
+/* Version selector styling */
+.md-version {
+  color: var(--md-default-fg-color--light);
+  font-size: 0.8rem;
+}
+
+/* Search result highlighting */
+.md-search-result__teaser mark {
+  background: var(--md-accent-fg-color--transparent);
+  color: var(--md-accent-fg-color);
+}
+
+/* Custom button styles */
+.md-button {
+  border: 0.1rem solid;
+  border-radius: 0.2rem;
+  color: var(--md-primary-fg-color);
+  display: inline-block;
+  font-weight: 700;
+  padding: 0.625em 2em;
+  transition: background-color 0.25s, border-color 0.25s, color 0.25s;
+}
+
+.md-button:hover {
+  background-color: var(--md-primary-fg-color);
+  border-color: var(--md-primary-fg-color);
+  color: var(--md-primary-bg-color);
+}
+
+/* Mermaid diagram styling */
+.mermaid {
+  text-align: center;
+  margin: 2em 0;
+}

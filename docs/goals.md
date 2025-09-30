@@ -1,0 +1,6 @@
+# Goals
+
+- **Hands gives you freedom**: There are several testing frameworks available like `pytest`, `robotframework` or `behave`. However, they often come with a set of conditions, constraints and limitations that you often choose by selecting the framework. Hands is not a testing framework, but a set of tools and utilities that will help you to build your own test automation - even including other frameworks if you want to.
+- **Hands is flexible**: Whether you are testing web applications, mobile apps, APIs, or any other type of software, Hands provides the flexibility to adapt to your specific testing needs.
+- **Hands is extensible**: You can easily extend Hands with your own custom libraries and plugins, allowing you to tailor the framework to your specific needs.
+- **Hands is easy to use**: With a simple and intuitive API, Hands makes it easy to get started with test automation, even if you have little or no experience. It will not force you to use specific tools like bash scripts or makefiles, but you can use them if you want to.
