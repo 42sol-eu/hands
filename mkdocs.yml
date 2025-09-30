@@ -131,6 +131,8 @@ nav:
     - Unit Testing: tools/unit-testing.md
     - Integration Testing: tools/integration-testing.md
     - End-to-End Testing: tools/e2e-testing.md
+  - Examples:
+    - Cross-Platform Testing: examples/cross-platform.md
   - Best Practices:
     - Testing Strategy: best-practices/strategy.md
     - Code Quality: best-practices/code-quality.md

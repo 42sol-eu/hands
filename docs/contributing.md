@@ -10,10 +10,10 @@ Thank you for your interest in contributing to Hands! This guide will help you g
 
 There are many ways to contribute to this project:
 
-- 📝 **Documentation**: Improve existing docs or add new content
-- 🛠️ **Tools**: Add new testing tools or update existing tool information
-- 💡 **Best Practices**: Share your testing experience and methodologies
-- 🐛 **Bug Reports**: Report issues with the documentation or examples (check if they are closly connected to one of our packages and post them there if possible.)
+- **Documentation**: Improve existing docs or add new content
+- **Tools**: Add new testing tools or update existing tool information
+- **Best Practices**: Share your testing experience and methodologies
+- **Defect Reports**: Report issues with the documentation or examples (check if they are closly connected to one of our packages and post them there if possible.)
 - ✨ **Feature Requests**: Suggest new sections or improvements (in this repository we want to pick bones with you, tell us what we are missing to make your testing experiance even better.)
 
 ## Getting Start 
@@ -129,19 +129,14 @@ There are many ways to contribute to this project:
     scaphoid magic
     ```
 
-## Documentation Guidelines
+## Documentation guidelines
 
 !!! info "We believe in hands on" 
 
     Instead of writing long guide lines, read into our documentation and start tapping the beat.
     Find the melody and start humming...
 
-### Code Examples
-
-- Use realistic, runnable examples
-- Include necessary imports and setup
-- Add comments to explain complex parts
-- Test your examples before submitting 
+### Code files and examples
 
 !!! info "We believe handy organization" 
 
